@@ -1,4 +1,4 @@
-function get_random_dog_image(){
+function get_random_anime(){
 
     url = "https://api.nekosapi.com/v2/images/random";
   
