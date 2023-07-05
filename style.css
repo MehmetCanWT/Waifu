@@ -6,7 +6,7 @@ body{
     justify-content:center;
     background-color: #272727;
     overflow: hidden;
-    background: radial-gradient(circle, rgb(192, 106, 146) 0%, rgb(58, 8, 41) 100%);
+    background: radial-gradient(circle, #833459 0%, rgb(44, 1, 30) 100%);
   }
 
   #container{
