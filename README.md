@@ -9,6 +9,13 @@
   
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](./photos/SFW.png)
+Safe For Work(SFW)
+
+![SFW](./photos/SFW.png)
+
+
+Not Safe For Work(NSFW)
+
+![SFW](./photos/NSFW.png)
 
   
