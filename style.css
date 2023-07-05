@@ -1,34 +1,82 @@
 body{
-    background-color:#ffffff;
     display:flex;
     justify-content:center;
+    background-color: #272727;
+    overflow: hidden;
+    background: radial-gradient(circle, rgb(192, 106, 146) 0%, rgb(58, 8, 41) 100%);
   }
 
   #container{
     width:100%;
-    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height:100%;
-    background-color: #ffffff;
+    height:1000px;
+    
   }
+
   #image{
-    width: 800px;
-    height: 800px;
-    max-width: 1000;
-    max-height: 850px;
-    border-radius: 10px;
-    border:5px solid #000;
-    box-sizing: border-box;
+    width:800px;
+    height:740px;
+    margin:20px;
+    border-radius:20px;
+    max-width:100%;
+    max-height:100%;
+    position:relative;
   }
 
   #button{
+    text-align: center;
     width:200px;
     height:50px;
     border-radius: 100px;
     cursor: crosshair;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
   }
+  
+
+  .box {
+    background: hsl(0, 0%, 100%);
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.01);
+  
+    &::after {
+      position: absolute;
+      content: "";
+      top: 15px;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.9) translateZ(0);
+      filter: blur(15px);
+      background: linear-gradient(
+        to left,
+        #ff5770,
+        #e4428d,
+        #c42da8,
+        #9e16c3,
+        #6501de,
+        #9e16c3,
+        #c42da8,
+        #e4428d,
+        #ff5770
+      );
+      background-size: 200% 200%;
+      animation: animateGlow 1.25s linear infinite;
+    }
+  }
+  
+  @keyframes animateGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  
