@@ -8,6 +8,7 @@ function get_random_anime(){
   })
   .then(function(data){
     display_image(data.data.attributes.file);
+    console.log(data);
   })
   .catch(function(error){
     console.log("Error: " + error);
@@ -19,3 +20,6 @@ function get_random_anime(){
 function display_image(image_url){
   document.getElementById("image").src = image_url;
 }
+
+
+
