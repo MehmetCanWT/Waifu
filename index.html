@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>Random Anime</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="index.js"></script>
   </head>
-  <body>
-    <div id="container">
-      <img id="image"/>
-      <button id="button" onclick="get_random_anime()"> Random </button>
+  <body onload="get_random_anime()">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden" id="container">
+      <img class="h-48 w-full object-cover md:h-full md:w-48"" id="image"/>
+      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300" id="button" onclick="get_random_anime()"> Random </button>
     </div>
   </body>
 </html>
