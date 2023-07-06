@@ -6,8 +6,6 @@
 
 <h1>Using <a href="https://waifu.pics">Waifu Pics API</a>
 
-<p>NSFW Not Always Have NSFW Pictures</p>
-
 
 
 
