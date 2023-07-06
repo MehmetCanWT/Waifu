@@ -5,8 +5,7 @@
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 <h1>Using <a href="https://waifu.pics">Waifu Pics API</a>
-
-Categories Coming soon
+Please Give Suggestion From issues page
 
 
 
