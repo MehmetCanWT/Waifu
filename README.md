@@ -1,7 +1,6 @@
 # Random Anime Image
 
-<h1>Using <a href="https://nekosapi.com">Nekos API</a></h1>
-<h1>Using <a href="https://pic.re">Anime Picture Api</a></h1>
+<h1>Using <a href="https://nekosapi.com">Nekos API</a>,<a href="https://pic.re">Anime Picture Api</a></h1>
 
 
 
