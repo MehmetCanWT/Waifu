@@ -4,7 +4,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-<h1>Using <a href="https://nekosapi.com">Nekos API</a>,<a href="https://pic.re">Anime Picture Api</a></h1>
+<h1>Using <a href="https://waifu.pics">Waifu Pics API</a>
 
 <p>NSFW Not Always Have NSFW Pictures</p>
 
