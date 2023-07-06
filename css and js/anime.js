@@ -1,7 +1,3 @@
-fetch('https://api.consumet.org/anime/gogoanime/info/spy-x-family')
-    .then(res => res.json())
-    .then(data => console.log(data))
-    .catch(error => console.log('ERROR'))
 
     function get_anime(){
 
@@ -12,7 +8,11 @@ fetch('https://api.consumet.org/anime/gogoanime/info/spy-x-family')
           return response.json();
         })
         .then(function(data){
-          display_image(data.id);
+          anime_name(data.title);
+          desc(data.description);
+          display_image(data.image);
+          releasedate(data.releaseDate);
+          statuss(data.status);
           console.log(data);
         })
         .catch(function(error){
@@ -21,9 +21,25 @@ fetch('https://api.consumet.org/anime/gogoanime/info/spy-x-family')
       
       
       }
-      
+      //Anime Name
+      function anime_name(names){
+        document.getElementById("name").innerHTML = names;
+      }
+      //Anime Description
+      function desc(description){
+        document.getElementById("desc").innerHTML = description;
+      }
+      //Anime Image
       function display_image(image_url){
-        document.getElementById("textbox").value = image_url;
+        document.getElementById("animeimg").src = image_url;
+      }
+      //Release Date
+      function releasedate(release){
+        document.getElementById("release").innerHTML = release;
+      }
+      //Status
+      function statuss(status){
+        document.getElementById("status").innerHTML = status;
       }
       
       
