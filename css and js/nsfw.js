@@ -1,13 +1,13 @@
 function get_random_anime(){
 
-  url = "https://api.nekosapi.com/v2/images/random";
+  url = "https://api.waifu.pics/nsfw/waifu";
 
   fetch(url)
   .then(function(response){
     return response.json();
   })
   .then(function(data){
-    display_image(data.data.attributes.file);
+    display_image(data.url);
     console.log(data);
   })
   .catch(function(error){
