@@ -2,6 +2,7 @@
 
 <h1>Using <a href="https://nekosapi.com">Nekos API</a>,<a href="https://pic.re">Anime Picture Api</a></h1>
 
+<p>NSFW Not Always Have NSFW</p>
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
