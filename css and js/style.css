@@ -3,6 +3,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -20,8 +21,20 @@ body{
     
   }
 
-  #container1{
-    width: 200px;
+  #buttonnsfw{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #buttonsfw{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
   }
 
   #image{
