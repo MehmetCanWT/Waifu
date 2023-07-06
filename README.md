@@ -6,6 +6,8 @@
 
 <h1>Using <a href="https://waifu.pics">Waifu Pics API</a>
 
+Categories Coming soon
+
 
 
 
