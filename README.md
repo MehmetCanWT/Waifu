@@ -10,7 +10,7 @@
 
 
   
-## Ekran Görüntüleri
+## Screenshots
 
 Safe For Work(SFW)
 
