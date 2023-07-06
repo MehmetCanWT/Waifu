@@ -3,38 +3,20 @@
 body{
     font-family: 'Oswald', sans-serif;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+    justify-content:center;
     background-color: #272727;
     overflow: hidden;
     background: radial-gradient(circle, #833459 0%, rgb(44, 1, 30) 100%);
   }
 
   #container{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
     width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     height:100%;
     
-  }
-
-  #buttonnsfw{
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  #buttonsfw{
-    margin-right: 30px;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
   }
 
   #image{
@@ -47,12 +29,12 @@ body{
   }
 
   #button{
-    margin-left: 10px;
     text-align: center; line-height: 0px;
-    width:140px;
+    width:200px;
     height:50px;
     border-radius: 100px;
-    margin-bottom: 20px;
+    cursor: crosshair;
+    margin-bottom: 100%;
   }
   
 
