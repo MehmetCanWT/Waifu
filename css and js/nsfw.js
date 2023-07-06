@@ -1,13 +1,13 @@
 function get_waifu(){
 
-  url = "https://api.waifu.pics/nsfw/waifu";
+  url = "https://api.nekosapi.com/v2/images/random?filter[ageRating]=explicit";
 
   fetch(url)
   .then(function(response){
     return response.json();
   })
   .then(function(data){
-    display_image(data.url);
+    display_image(data.data.attributes.file);
     console.log(data);
   })
   .catch(function(error){
